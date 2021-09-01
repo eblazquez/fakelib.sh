@@ -73,7 +73,7 @@ if [[ -n $print_help ]] ; then
 	echo "  -c <custom command>: command to run with payload \"system\""
 	echo "  -s <shellcode>: shellcode to run with payload \"custom\""
         echo "                  Must be inside quotes in C string format"
-	echo "  -f: fork and run payload in child process"
+	echo "  -k: fork and run payload in child process"
 	echo "  -g: generate links to original library to preserve functionality"
         echo "      (WARNING, doesn't always work)"
 	echo "  -v: verbose. Print fake library source code"
